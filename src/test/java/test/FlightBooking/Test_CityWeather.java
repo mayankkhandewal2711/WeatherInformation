@@ -46,17 +46,18 @@ public class Test_CityWeather extends TestBase {
 	@Test(description ="Get temperature difference for the same city recieved from website and API",priority=3)
 	void verifyTempreatureDifference() throws Exception {
 		
-	String testcaseName = "CityWeather";
+	String testcaseName = "CheckCityTemperatureDifference";
 	WeatherInformationFromWebsite weatherInformation = new WeatherInformationFromWebsite(testcaseName);
 	weatherInformation.navigateToWeatherMenu();
 	weatherInformation.selectCity();
-	WeatherInformationFromWebsite.getCityWeatherTemperatureFromWeb();
+	//WeatherInformationFromWebsite.getCityWeatherTemperatureFromWeb();
 		
 	GetTemperatureDataFromApi getDataFromApi = new GetTemperatureDataFromApi();
 	getDataFromApi.getWeatherDataFromApi(testcaseName);
-	GetTemperatureDataFromApi.getCityWeatherTemperatureFromApi();
+	//GetTemperatureDataFromApi.getCityWeatherTemperatureFromApi();
 		
-		CalculateTemperatureDifference.getTemperatureDifference();
+	CalculateTemperatureDifference calculateTemperatureDifference = new CalculateTemperatureDifference();
+	calculateTemperatureDifference.getTemperatureDifference();
 		
 	}
 	

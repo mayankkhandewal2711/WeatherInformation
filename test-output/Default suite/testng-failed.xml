@@ -5,7 +5,7 @@
     <classes>
       <class name="test.FlightBooking.Test_CityWeather">
         <methods>
-          <include name="verifyCitySelecteAndWeatherInfomationDisplayed"/>
+          <include name="verifyTempreatureDifference"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- test.FlightBooking.Test_CityWeather -->
