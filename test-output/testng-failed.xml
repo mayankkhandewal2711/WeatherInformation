@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
-      <class name="test.FlightBooking.Test_CityWeather">
+      <class name="test.weatherInfomation.Test_CityWeather">
         <methods>
-          <include name="verifyTempreatureDifference"/>
           <include name="closeBrowser"/>
+          <include name="verifyCitySelecteAndWeatherInfomationDisplayed"/>
         </methods>
-      </class> <!-- test.FlightBooking.Test_CityWeather -->
+      </class> <!-- test.weatherInfomation.Test_CityWeather -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

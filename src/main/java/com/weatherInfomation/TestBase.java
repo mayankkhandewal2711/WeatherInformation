@@ -1,4 +1,4 @@
-package com.FlightBooking;
+package com.weatherInfomation;
 
 import java.io.File;
 import java.io.FileInputStream;

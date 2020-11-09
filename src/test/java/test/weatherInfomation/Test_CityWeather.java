@@ -1,6 +1,9 @@
-package test.FlightBooking;
+package test.weatherInfomation;
 
 import org.testng.annotations.Test;
+
+import com.weatherInfomation.*;
+
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -15,10 +18,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-
-
-
-import com.FlightBooking.*;
 public class Test_CityWeather extends TestBase {
 	
 
@@ -50,11 +49,9 @@ public class Test_CityWeather extends TestBase {
 	WeatherInformationFromWebsite weatherInformation = new WeatherInformationFromWebsite(testcaseName);
 	weatherInformation.navigateToWeatherMenu();
 	weatherInformation.selectCity();
-	//WeatherInformationFromWebsite.getCityWeatherTemperatureFromWeb();
 		
 	GetTemperatureDataFromApi getDataFromApi = new GetTemperatureDataFromApi();
 	getDataFromApi.getWeatherDataFromApi(testcaseName);
-	//GetTemperatureDataFromApi.getCityWeatherTemperatureFromApi();
 		
 	CalculateTemperatureDifference calculateTemperatureDifference = new CalculateTemperatureDifference();
 	calculateTemperatureDifference.getTemperatureDifference();

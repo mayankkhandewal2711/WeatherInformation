@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59474" started-at="2020-11-09T05:18:13Z" finished-at="2020-11-09T05:19:12Z">
+  <suite name="Suite" duration-ms="58595" started-at="2020-11-09T08:29:22Z" finished-at="2020-11-09T08:30:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59474" started-at="2020-11-09T05:18:13Z" finished-at="2020-11-09T05:19:12Z">
-      <class name="test.FlightBooking.Test_CityWeather">
-        <test-method status="PASS" signature="verifyCitySelecteAndWeatherInfomationDisplayed()[pri:1, instance:test.FlightBooking.Test_CityWeather@6eebc39e]" name="verifyCitySelecteAndWeatherInfomationDisplayed" duration-ms="27016" started-at="2020-11-09T10:48:13Z" description="Verify city is selected and selected city weather is shown" finished-at="2020-11-09T10:48:40Z">
+    <test name="Test" duration-ms="58595" started-at="2020-11-09T08:29:22Z" finished-at="2020-11-09T08:30:20Z">
+      <class name="test.weatherInfomation.Test_CityWeather">
+        <test-method status="PASS" signature="verifyCitySelecteAndWeatherInfomationDisplayed()[pri:1, instance:test.weatherInfomation.Test_CityWeather@6eebc39e]" name="verifyCitySelecteAndWeatherInfomationDisplayed" duration-ms="26024" started-at="2020-11-09T13:59:22Z" description="Verify city is selected and selected city weather is shown" finished-at="2020-11-09T13:59:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCitySelecteAndWeatherInfomationDisplayed -->
-        <test-method status="PASS" signature="verifySelectedCityWeatherFromApi()[pri:2, instance:test.FlightBooking.Test_CityWeather@6eebc39e]" name="verifySelectedCityWeatherFromApi" duration-ms="4615" started-at="2020-11-09T10:48:40Z" description="Get weather information for the city from Api" finished-at="2020-11-09T10:48:44Z">
+        <test-method status="PASS" signature="verifySelectedCityWeatherFromApi()[pri:2, instance:test.weatherInfomation.Test_CityWeather@6eebc39e]" name="verifySelectedCityWeatherFromApi" duration-ms="5791" started-at="2020-11-09T13:59:48Z" description="Get weather information for the city from Api" finished-at="2020-11-09T13:59:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySelectedCityWeatherFromApi -->
-        <test-method status="PASS" signature="verifyTempreatureDifference()[pri:3, instance:test.FlightBooking.Test_CityWeather@6eebc39e]" name="verifyTempreatureDifference" duration-ms="25840" started-at="2020-11-09T10:48:44Z" description="Get temperature difference for the same city recieved from website and API" finished-at="2020-11-09T10:49:10Z">
+        <test-method status="PASS" signature="verifyTempreatureDifference()[pri:3, instance:test.weatherInfomation.Test_CityWeather@6eebc39e]" name="verifyTempreatureDifference" duration-ms="24897" started-at="2020-11-09T13:59:54Z" description="Get temperature difference for the same city recieved from website and API" finished-at="2020-11-09T14:00:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTempreatureDifference -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.FlightBooking.Test_CityWeather@6eebc39e]" name="closeBrowser" is-config="true" duration-ms="1981" started-at="2020-11-09T10:49:10Z" finished-at="2020-11-09T10:49:12Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.weatherInfomation.Test_CityWeather@6eebc39e]" name="closeBrowser" is-config="true" duration-ms="1861" started-at="2020-11-09T14:00:18Z" finished-at="2020-11-09T14:00:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- test.FlightBooking.Test_CityWeather -->
+      </class> <!-- test.weatherInfomation.Test_CityWeather -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

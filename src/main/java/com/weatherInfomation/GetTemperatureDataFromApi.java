@@ -1,4 +1,4 @@
-package com.FlightBooking;
+package com.weatherInfomation;
 
 import java.io.IOException;
 import java.util.HashMap;
